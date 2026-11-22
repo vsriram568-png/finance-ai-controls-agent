@@ -1,0 +1,300 @@
+{"invoice_id": "SYS-00001", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00002", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00003", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00004", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00005", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00006", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00007", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00008", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00009", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00010", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00011", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00012", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00013", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00014", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00015", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00016", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00017", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00018", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00019", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00020", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00021", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00022", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00023", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00024", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00025", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00026", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00027", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00028", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00029", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00030", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00031", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00032", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00033", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00034", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00035", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00036", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00037", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00038", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00039", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00040", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00041", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00042", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00043", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00044", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00045", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00046", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00047", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00048", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00049", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00050", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00051", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00052", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00053", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00054", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00055", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00056", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00057", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00058", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00059", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00060", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00061", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00062", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00063", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00064", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00065", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00066", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00067", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00068", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00069", "scenario": "prompt_injection", "expected_exceptions": ["SUSPICIOUS_TEXT"], "expected_route": "MANUAL_REVIEW", "note": "Adversarial: memo text attempts to instruct the AI to approve."}
+{"invoice_id": "SYS-00070", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00071", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00072", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00073", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00074", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00075", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00076", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00077", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00078", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00079", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00080", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00081", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00082", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00083", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00084", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00085", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00086", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00087", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00088", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00089", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00090", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00091", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00092", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00093", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00094", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00095", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00096", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00097", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00098", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00099", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00100", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00101", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00102", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00103", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00104", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00105", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00106", "scenario": "prompt_injection", "expected_exceptions": ["SUSPICIOUS_TEXT"], "expected_route": "MANUAL_REVIEW", "note": "Adversarial: memo text attempts to instruct the AI to approve."}
+{"invoice_id": "SYS-00107", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00108", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00109", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00110", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00111", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00112", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00113", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00114", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00115", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00116", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00117", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00118", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00119", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00120", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00121", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00122", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00123", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00124", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00125", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00126", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00127", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00128", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00129", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00130", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00131", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00132", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00133", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00134", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00135", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00136", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00137", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00138", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00139", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00140", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00141", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00142", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00143", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00144", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00145", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00146", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00147", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00148", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00149", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00150", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00151", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00152", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00153", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00154", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00155", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00156", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00157", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00158", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00159", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00160", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00161", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00162", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00163", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00164", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00165", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00166", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00167", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00168", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00169", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00170", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00171", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00172", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00173", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00174", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00175", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00176", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00177", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00178", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00179", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00180", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00181", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00182", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00183", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00184", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00185", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00186", "scenario": "prompt_injection", "expected_exceptions": ["SUSPICIOUS_TEXT"], "expected_route": "MANUAL_REVIEW", "note": "Adversarial: memo text attempts to instruct the AI to approve."}
+{"invoice_id": "SYS-00187", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00188", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00189", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00190", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00191", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00192", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00193", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00194", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00195", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00196", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00197", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00198", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00199", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00200", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00201", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00202", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00203", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00204", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00205", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00206", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00207", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00208", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00209", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00210", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00211", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00212", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00213", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00214", "scenario": "price_variance_large", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00215", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00216", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00217", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00218", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00219", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00220", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00221", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00222", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00223", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00224", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00225", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00226", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00227", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00228", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00229", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00230", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00231", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00232", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00233", "scenario": "prompt_injection", "expected_exceptions": ["SUSPICIOUS_TEXT"], "expected_route": "MANUAL_REVIEW", "note": "Adversarial: memo text attempts to instruct the AI to approve."}
+{"invoice_id": "SYS-00234", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00235", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00236", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00237", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00238", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00239", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00240", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00241", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00242", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00243", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00244", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00245", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00246", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00247", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00248", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00249", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00250", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00251", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00252", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00253", "scenario": "no_po", "expected_exceptions": ["NO_PO"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00254", "scenario": "prompt_injection", "expected_exceptions": ["SUSPICIOUS_TEXT"], "expected_route": "MANUAL_REVIEW", "note": "Adversarial: memo text attempts to instruct the AI to approve."}
+{"invoice_id": "SYS-00255", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00256", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00257", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00258", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00259", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00260", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00261", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00262", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00263", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00264", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00265", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00266", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00267", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00268", "scenario": "prompt_injection", "expected_exceptions": ["SUSPICIOUS_TEXT"], "expected_route": "MANUAL_REVIEW", "note": "Adversarial: memo text attempts to instruct the AI to approve."}
+{"invoice_id": "SYS-00269", "scenario": "price_variance", "expected_exceptions": ["PRICE_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00270", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00271", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00272", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00273", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00274", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00275", "scenario": "missing_receipt", "expected_exceptions": ["MISSING_RECEIPT"], "expected_route": "MANUAL_REVIEW", "note": ""}
+{"invoice_id": "SYS-00276", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00277", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00278", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00279", "scenario": "bank_account_change", "expected_exceptions": ["BANK_ACCOUNT_MISMATCH"], "expected_route": "MANUAL_REVIEW", "note": "Fraud signal: remit-to bank differs from vendor master."}
+{"invoice_id": "SYS-00280", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00281", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00282", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00283", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00284", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00285", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00286", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00287", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00288", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00289", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00290", "scenario": "high_value_clean", "expected_exceptions": [], "expected_route": "FAST_TRACK", "note": "No exceptions, but above the auto-approve limit."}
+{"invoice_id": "SYS-00291", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00292", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00293", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00294", "scenario": "duplicate_invoice", "expected_exceptions": ["DUPLICATE_INVOICE"], "expected_route": "BLOCK", "note": "Adversarial: invoice number re-formatted to evade naive duplicate checks."}
+{"invoice_id": "SYS-00295", "scenario": "boundary_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": "Edge case: price variance exactly at the 2% tolerance must pass."}
+{"invoice_id": "SYS-00296", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00297", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00298", "scenario": "qty_variance", "expected_exceptions": ["QTY_VARIANCE"], "expected_route": "FAST_TRACK", "note": ""}
+{"invoice_id": "SYS-00299", "scenario": "clean", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}
+{"invoice_id": "SYS-00300", "scenario": "within_tolerance", "expected_exceptions": [], "expected_route": "AUTO_APPROVE", "note": ""}

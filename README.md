@@ -123,7 +123,7 @@ flowchart LR
 
 ---
 
-## Run it yourself (Databricks)
+## Sections
 
 1. **Workspace -> Import** `lab_finance_agent.ipynb`.
 2. Run the first cell to create the schema `workspace.finance_ai` and the volume `raw`.
